@@ -30,6 +30,7 @@ render() {
   return (
     <div className="App">
       <div className="calc-wrapper">
+          <header className="button-wrapper">Calculator</header>
           <Input input={this.state.input}></Input>
         <div className="row">
           <Button handleClick={this.addToInput}>7</Button>
@@ -41,7 +42,7 @@ render() {
           <Button handleClick={this.addToInput}>4</Button>
           <Button handleClick={this.addToInput}>5</Button>
           <Button handleClick={this.addToInput}>6</Button>
-          <Button handleClick={this.addToInput}>x</Button>
+          <Button handleClick={this.addToInput}>*</Button>
         </div>
         <div className="row">
           <Button handleClick={this.addToInput}>1</Button>
